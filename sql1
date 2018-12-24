@@ -1,0 +1,5 @@
+select 
+	userId, count(i_user_login_logs) 
+from Registration
+Group By userId
+Having Count(i_user_login_logs)>3
