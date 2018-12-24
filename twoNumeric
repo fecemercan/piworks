@@ -1,0 +1,14 @@
+static void Main(string[] args
+{
+int a=8;
+int b=6; 
+
+a=a+b;
+b=a - b;
+a=a - b;
+Console.WriteLine(" first number = {0}", a);
+Console.WriteLine("second number = {0}", b);
+ 
+Console.ReadKey();
+ 
+}
